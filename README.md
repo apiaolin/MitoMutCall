@@ -1,6 +1,6 @@
 This R package is to calculate the mutations of substitution and heteroplasmy in mitochondria. First of all, BAM files are obtained from original fastq files by BWA program, through competitive alignment and mitochondrial circle processing; Secondly, Mpileup files are obtained from samtools program. Based on mpileup files, minor allele frequency is used as the mitochondrial heteroplasmy through binomial test, and if the major allelic bases are different of reference, those bases are substitution mutations.
 #
-This package is based on Linux Linux and R (>= 3.0.1). The softwares of BWA and samtools are required to be installed; And the relevant R packages of "Biostrings", "data.table", "parallel", "stringr", "plyr", "reshape2" are needed. The FASTQ files supported by this software are only limited to the paired-end reads with the standard Phred+33 quality score system.
+This R package is based on Linux system and R (>= 3.0.1). The softwares of BWA and samtools are required to be installed; And the relevant R packages of "Biostrings", "data.table", "parallel", "stringr", "plyr", "reshape2" are needed. The FASTQ files supported by this software are only limited to the paired-end reads with the standard Phred+33 quality score system.
 
 # Installation and configuration
 
