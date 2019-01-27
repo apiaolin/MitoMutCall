@@ -21,4 +21,4 @@ source(Installation_configuration.R)
 ## If you already have installed BWA or samtools in system, you can install or update the configuration by using the following functions. Set "bwa_path", "samtools_path" to absolute path, bwa and samtools cannot be renamed. Such as "/home/tools/bwa0.17.1/bwa" and "/home/tools/samtools1.5/samtools" meet the requirements. There are no matters that the input order of "bwa_path" and "samtools_path". Users can enter one or two paths
 Rscript Installation_configuration.R bwa_path samtools_path
 ## ……
-# You can find more detail introduction in "Introduction of package'MitoMutCal'.pdf"
+# You can find more detail introduction in "Introduction of package'MitoMutCall'.pdf"
