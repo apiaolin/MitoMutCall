@@ -17,6 +17,7 @@ Rscript Installation_configuration.R
 #Please ensure network connection. If the user is superuser, the R package will be installed to the default path by itself; If the user is a regular user, the R package will be installed to "~/R/x86_64-pc-linux-gnu-library/" by default. If the relevant R packages have not been installed before, the program will download and install these packages by itself. BWA and samtools software in the configuration path are installed by default. If it occurs some errors of R package installation, it may be owing to users haven’t the permissions to read and write default folders. At this time, the users can enter to Rgui, and first sets the target path and then source().
 #
 .libPaths(paste("~/R/x86_64-pc-linux-gnu-library/",version$major,".",strsplit(version$minor,split=".",fixed=TRUE)[[1]][1],sep="")) 
+#
 source(Installation_configuration.R)
 #
 #If you already have installed BWA or samtools in system, you can install or update the configuration by using the following functions. Set "bwa_path", "samtools_path" to absolute path, bwa and samtools cannot be renamed. Such as "/home/tools/bwa0.17.1/bwa" and "/home/tools/samtools1.5/samtools" meet the requirements. There are no matters that the input order of "bwa_path" and "samtools_path". Users can enter one or two paths
