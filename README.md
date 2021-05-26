@@ -18,7 +18,7 @@ Rscript Installation_configuration.R
 #
 .libPaths(paste("~/R/x86_64-pc-linux-gnu-library/",version$major,".",strsplit(version$minor,split=".",fixed=TRUE)[[1]][1],sep="")) 
 #
-source(Installation_configuration.R)
+source("Installation_configuration.R")
 #
 ## You can download the dependent R packages for localized installation according to "list.txt".
 #
